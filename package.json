@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DayDreamer010.github.io/Portfolio", 
+  "homepage": "https://DayDreamer010.github.io", 
   "dependencies": {
     "-": "^0.0.1",
     "@react-pdf/renderer": "^2.2.0",
