@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dimpalraval.github.io/static/css/main.5672b631.css",
-    "main.js": "/dimpalraval.github.io/static/js/main.d0a87336.js",
+    "main.js": "/dimpalraval.github.io/static/js/main.47ac03fa.js",
     "static/js/415.4d6acbeb.chunk.js": "/dimpalraval.github.io/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/dimpalraval.github.io/static/js/787.1ed0c42c.chunk.js",
     "static/media/home-avatar.png": "/dimpalraval.github.io/static/media/home-avatar.9a33472293c7eb67fe50.png",
@@ -16,12 +16,12 @@
     "index.html": "/dimpalraval.github.io/index.html",
     "static/media/pre.svg": "/dimpalraval.github.io/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.5672b631.css.map": "/dimpalraval.github.io/static/css/main.5672b631.css.map",
-    "main.d0a87336.js.map": "/dimpalraval.github.io/static/js/main.d0a87336.js.map",
+    "main.47ac03fa.js.map": "/dimpalraval.github.io/static/js/main.47ac03fa.js.map",
     "415.4d6acbeb.chunk.js.map": "/dimpalraval.github.io/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/dimpalraval.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5672b631.css",
-    "static/js/main.d0a87336.js"
+    "static/js/main.47ac03fa.js"
   ]
 }
