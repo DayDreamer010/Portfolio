@@ -4,10 +4,7 @@ import homeLogo from "../../Assets/home-page.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-// import AvatarView from "@sarge/avatar-view";
-import model from "../../Assets/63dbe5a172f63b7131e14aa6.glb";
 function Home() {
-  const url = "https://models.readyplayer.me/63dbe5a172f63b7131e14aa6.glb";
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -33,7 +30,7 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <AvatarView url={model} /> */}
+
               <img
                 src={homeLogo}
                 alt="home pic"

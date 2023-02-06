@@ -3,8 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import bingobash from "../../Assets/Projects/bingoimg.jpg";
-import foodfight from "../../Assets/Projects/foodfight.png";
-import ivox from "../../Assets/Projects/vox.png";
+import foodfight from "../../Assets/Projects/foodfight.mp4";
+import ivox from "../../Assets/Projects/Vox.mp4";
+import weatherChange from "../../Assets/Projects/weather-change.mp4";
+import NightLighting from "../../Assets/Projects/NightLighting.mp4";
+import StarWars from "../../Assets/Projects/Starwars.mp4";
+import PepsiDemo from "../../Assets/Projects/pepsiDemo.mp4";
 
 function Projects() {
   return (
@@ -21,6 +25,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bingobash}
+              isVideo={false}
               isBlog={false}
               title="Bingo Bash"
               description="Bingo Bash is a technologically advanced, globally accessible digital iteration of the traditional game of bingo that offers an invigorating and immersive experience for players of varying ages and backgrounds. Through its incorporation of classical bingo mechanics and innovative challenges, Bingo Bash serves as an exciting platform for bingo aficionados to come together and engage in the timeless pastime."
@@ -33,6 +38,7 @@ function Projects() {
             <ProjectCard
               imgPath={ivox}
               isBlog={false}
+              isVideo={true}
               title="IVOX"
               description="iVox is a technologically advanced children's book application designed to captivate and engage young minds through the utilization of cutting-edge storytelling technology. Accessible to ages 2-10, it offers a rich and diverse library of immersive stories with stunning animations and interactive elements, available through institutional subscriptions. The app offers a unique, interactive reading experience and is readily accessible for free download for children and families."
               ghLink=""
@@ -44,6 +50,7 @@ function Projects() {
             <ProjectCard
               imgPath={foodfight}
               isBlog={false}
+              isVideo={true}
               title="Food Fight"
               description="Enter the frenzy of the culinary establishment in 'Restaurant Chaos', a high-stakes, fast-paced game that tasks players with satisfying the voracious appetite of hungry patrons. Players must demonstrate their dexterity, swiftness, and forethought by swiftly selecting and arranging palatable fare, while avoiding the pernicious provisions denoted by a distinctive vermilion rim. A true test of skill, velocity, and tactics, 'Restaurant Chaos' promises to be a thrilling and challenging experience."
               ghLink=""
@@ -51,39 +58,54 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={NightLighting}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              isVideo={true}
+              title="Car Chase In Night"
+              description="Created a car chase sequence in the night scene of toon city asset from asset store. It includes light baking and light probes along with car suspension animation on acceleration and break."
+              ghLink="https://github.com/DayDreamer010/Night-Lighting-Demo"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weatherChange}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              isVideo={true}
+              title="Weather System Demo"
+              description="Created a weather system including day night cycle with low to heavy rainfall via particle system with sound effects."
+              ghLink="https://github.com/DayDreamer010/Weather-System-Demo"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={StarWars}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              isVideo={true}
+              title="Star Wars Force field"
+              description="Created a force field shader using unity shader graph. Integrated it with star wars lego characters and implemented bullets using particle system."
+              ghLink=""
+              demoLink=""
             />
-          </Col> */}
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PepsiDemo}
+              isBlog={false}
+              isVideo={true}
+              title="Pepsi Web Ar Demo"
+              description="Created an AR Prduct demo for pepsi."
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

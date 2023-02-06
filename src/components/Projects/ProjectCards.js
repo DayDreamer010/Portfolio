@@ -3,12 +3,23 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import ReactPlayer from 'react-player/file';
 
 function ProjectCards(props) {
   const renderGithubButton = props.ghLink !== "";
+  const renderImage = props.isVideo === false;
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {
+        renderImage && (
+          <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+        )
+      }
+      {
+        !renderImage && (
+          <ReactPlayer url={props.imgPath} loop muted playing width="100%" height="100%" />
+        )
+      }
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

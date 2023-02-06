@@ -3,9 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiAndroid,
-  DiScriptcs,
   DiPhp,
-  DiBitbucket,
 } from "react-icons/di";
 import {
   SiCsharp,
