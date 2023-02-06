@@ -39,7 +39,7 @@ function App() {
           <Route path="/Portfolio/Projects" element={<Projects />} />
           <Route path="/Portfolio/About" element={<About />} />
           <Route path="/Portfolio/Resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/404"/>} />
+          <Route path="*" element={<Navigate to="/Portfolio"/>} />
         </Routes>
         <Footer />
       </div>
